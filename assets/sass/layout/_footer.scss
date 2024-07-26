@@ -1,4 +1,4 @@
-.header{
+.footer{
     display: flex;
     border-bottom: 2px solid #CCCCCC;
     height: 130px;
@@ -15,7 +15,7 @@
         height: 36px;
         margin-top: 47px;
         margin-left: 21px;
-        font-size: $font-sizeS;
         font-weight: $poppins-bold;
+        // font-size: $font-sizeS;
     }
 }

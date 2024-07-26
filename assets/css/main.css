@@ -1,5 +1,174 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+  font-style: normal;
   color: #171717;
+}
+
+.lineaHorizontal {
+  border: 3px solid #CCCCCC;
+  Width: 1280px;
+  margin: 65px 0px 0px 0px;
+}
+
+.fecha {
+  font-weight: 400;
+}
+
+.desafioLatam {
+  display: flex;
+  font-weight: 500;
+  text-align: left;
+}
+
+.descripcion {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.header {
+  display: flex;
+  border-bottom: 2px solid #CCCCCC;
+  height: 130px;
+  width: 1280px;
+}
+.header__imagen {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  margin-left: 109px;
+  margin-top: 38px;
+}
+.header__h1 {
+  width: 170px;
+  height: 36px;
+  margin-top: 47px;
+  margin-left: 21px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section {
+  display: flex;
+}
+.section__h2 {
+  width: 164px;
+  margin: 27px 0px 0px 110px;
+}
+.section__imagen {
+  width: 603px;
+  height: 314px;
+  margin: 27px 0px 0px 105px;
+  border-radius: 20px;
+}
+.section__imagen2 {
+  width: 189px;
+  height: 145px;
+  margin: 96px 0px 0px 56px;
+  border-radius: 20px;
+}
+.section__imagen3 {
+  width: 189px;
+  height: 145px;
+  margin: 32px 0px 0px 56px;
+  border-radius: 20px;
+}
+.section__imagen4 {
+  width: 189px;
+  height: 145px;
+  margin: 20px 0px 0px 56px;
+  border-radius: 20px;
+}
+.section__container2 {
+  display: flex;
+}
+.section__fecha {
+  margin: 22px 0px 0px 105px;
+  width: 515px;
+  height: 27px;
+  font-size: 18px;
+}
+.section__contenido {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin: 12px 0px 0px 105px;
+}
+.section__logodesafio {
+  width: 60px;
+  height: 60px;
+  margin: 16px 0px 0px 105px;
+  border-radius: 77px;
+}
+.section__desafio {
+  width: 328px;
+  height: 36px;
+  font-size: 24px;
+  margin: 31px 0px 0px 22px;
+}
+.section__fecha2 {
+  margin: 96px 0px 0px 31px;
+  width: 186px;
+  height: 24px;
+  font-size: 16px;
+}
+.section__fecha3 {
+  margin: 34px 0px 0px 32px;
+  width: 186px;
+  height: 24px;
+  font-size: 16px;
+}
+.section__fecha4 {
+  margin: 22px 0px 0px 31px;
+  width: 186px;
+  height: 24px;
+  font-size: 16px;
+}
+.section__descripcion {
+  width: 187px;
+  height: 72px;
+  margin: 9px 0px 0px 30px;
+}
+.section__logodesafio2 {
+  width: 39.79px;
+  height: 40px;
+  border-radius: 77px;
+  margin: 0px 0px 0px 30px;
+}
+.section__desafio {
+  width: 134.28px;
+  height: 24px;
+  font-size: 16px;
+  margin: 8px 0px 0px 12.93px;
+}
+
+.footer {
+  display: flex;
+  border-bottom: 2px solid #CCCCCC;
+  height: 130px;
+  width: 1280px;
+}
+.footer__imagen {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  margin-left: 109px;
+  margin-top: 38px;
+}
+.footer__h1 {
+  width: 170px;
+  height: 36px;
+  margin-top: 47px;
+  margin-left: 21px;
+  font-weight: 700;
+}
+
+.forms__welcome {
+  text-align: center;
+}
+.forms__register {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

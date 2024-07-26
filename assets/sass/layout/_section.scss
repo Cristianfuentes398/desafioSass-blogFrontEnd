@@ -1,0 +1,94 @@
+.section{
+    display: flex;
+    &__h2{
+        width: 164px;
+        margin: 27px 0px 0px 110px;
+    }
+    &__imagen{
+        width: 603px;
+        height: 314px;
+        margin: 27px 0px 0px 105px;
+        border-radius: 20px;
+    }
+    &__imagen2{
+        width: 189px;
+        height: 145px;
+        margin: 96px 0px 0px 56px;
+        border-radius: 20px;
+    }
+    &__imagen3{
+        width: 189px;
+        height: 145px;
+        margin: 32px 0px 0px 56px;
+        border-radius: 20px;
+    }
+    &__imagen4{
+        width: 189px;
+        height: 145px;
+        margin: 20px 0px 0px 56px;
+        border-radius: 20px;
+    }
+    &__container2{
+        display: flex;
+    }
+    &__fecha{
+        margin: 22px 0px 0px 105px;
+        width: 515px;
+        height: 27px;
+        font-size: 18px;
+    }
+    &__contenido{
+        font-size: $font-sizeS;
+        font-weight: $poppins-bold;
+        line-height: 36px;
+        text-align: left;
+        margin: 12px 0px 0px 105px;
+    }
+    &__logodesafio{
+        width: 60px;
+        height: 60px;
+        margin: 16px 0px 0px 105px;
+        border-radius: 77px
+    }
+    &__desafio{
+        width: 328px;
+        height: 36px;
+        font-size: 24px;
+        margin: 31px 0px 0px 22px;
+    }
+    &__fecha2{
+        margin: 96px 0px 0px 31px;
+        width: 186px;
+        height: 24px;
+        font-size: 16px;
+    }
+    &__fecha3{
+        margin: 34px 0px 0px 32px;
+        width: 186px;
+        height: 24px;
+        font-size: 16px;
+    }
+    &__fecha4{
+        margin: 22px 0px 0px 31px;
+        width: 186px;
+        height: 24px;
+        font-size: 16px;
+    }
+    &__descripcion{
+        width: 187px;
+        height: 72px;
+        margin: 9px 0px 0px 30px;
+    }
+    &__logodesafio2{
+        width: 39.79px;
+        height: 40px;
+        border-radius: 77px;
+        margin: 0px 0px 0px 30px;
+    }
+    &__desafio{
+        width: 134.28px;
+        height: 24px;
+        font-size: 16px;
+        margin: 8px 0px 0px 12.93px;
+    }
+}
