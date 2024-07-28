@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/img/logos/adl.png" alt="logoadl" class="header__imagen">
+        <h1 class="header__h1">Blog FrontEnd</h1>
+    </header>
+
+    <section class="login">
+        <h2 class="login__welcome">Bienvenido</h2>
+        <div class="login__register">
+            <input type="email" class="login__email" id="exampleFormControlInput1" placeholder="Email">
+            <input type="password" class="login__password" id="exampleFormControlInput1" placeholder="Contraseña"> 
+            <div class="login__check">
+                <input class="login__check--input" type="checkbox" id="gridCheck1">
+                <label class="login__check--label" for="gridCheck1">Recordarme</label>
+                <label class="login__check--label2" for="gridCheck1">¿Olvidaste tu contraseña?</label>
+            </div>
+        </div>
+        <div class="login__button">
+            <a class="login__link--register" href="./blog.html" target="_blank"><button type="button" class="login__button--login">Iniciar sesion</button></a>
+            <div class="login__google">
+                <img class="login__image" src="./assets/img/google.jpeg" alt="logogoogle">
+                <button type="button" class="login__button--google">Iniciar sesion con Google</button>
+            </div>
+            <div class="login__inicisesion">
+                <p class="login__paragraph">¿No tienes una cuenta?</p>
+                <a class="login__link--login" href="./index.html" target="_blank"> <span class="forms__sesion">Registrate</span></a>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
