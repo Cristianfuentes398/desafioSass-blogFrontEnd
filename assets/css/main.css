@@ -28,6 +28,10 @@ body {
   color: #171717;
 }
 
+a {
+  color: black;
+}
+
 .header {
   display: flex;
   border-bottom: 2px solid #CCCCCC;
@@ -285,6 +289,42 @@ body {
   height: 400px;
   padding-left: 150px;
   border-radius: 20px;
+}
+
+.relation__container {
+  display: flex;
+}
+.relation__h2 {
+  margin-left: 105px;
+  font-size: 25px;
+}
+.relation__imagen {
+  width: 298px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 22px 0px 0px 105px;
+}
+.relation__fecha {
+  width: 294px;
+  height: 24px;
+  font-size: 16px;
+  margin: 6px 0px 0px 111px;
+}
+.relation__descripcion {
+  width: 295px;
+  height: 31px;
+  margin: 9px 0px 0px 110px;
+}
+.relation__logodesafio {
+  margin: 39px 0px 0px 111px;
+  width: 40px;
+  height: 40px;
+  border-radius: 77px;
+}
+.relation__desafio {
+  width: 135px;
+  height: 24px;
+  margin: 47px 0px 0px 13px;
 }
 
 .footer {

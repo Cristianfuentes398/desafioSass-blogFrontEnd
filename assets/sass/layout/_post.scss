@@ -40,5 +40,40 @@
     }
 }
 .relation{
+    &__container{
+        display: flex;
+    }
+    &__h2{
+        margin-left: 105px;
+        font-size: 25px;
+    }
+    &__imagen{
+        width: 298px;
+        height: 200px;
+        border-radius: 20px;
+        margin:22px 0px 0px 105px;
+    }
+    &__fecha{
+        width: 294px;
+        height: 24px;
+        font-size: 16px;
+        margin: 6px 0px 0px 111px;
+    }
+    &__descripcion{
+        width: 295px;
+        height: 31px;
+        margin: 9px 0px 0px 110px;
     
+    }
+    &__logodesafio{
+        margin: 39px 0px 0px 111px;
+        width: 40px;
+        height: 40px;
+        border-radius: 77px;
+    }
+    &__desafio{
+        width: 135px;
+        height: 24px;
+        margin: 47px 0px 0px 13px;
+    }
 }
