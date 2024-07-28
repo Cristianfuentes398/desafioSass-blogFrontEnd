@@ -1,0 +1,44 @@
+.post{
+    &__logodesafio{
+        width: 60px;
+        height: 60px;
+        margin: 16px 0px 0px 105px;
+        border-radius: 77px;
+        } 
+    &__fecha{
+        margin: 28px 0px 0px 105px;
+        width: 515px;
+        height: 27px;
+        font-size: 20px;
+    }
+    &__logo{
+        display: flex;
+    }
+    &__desafio{
+        font-size: 25px;
+        margin-left: 5px;
+    }
+    &__subtitle{
+        margin-left: 105px;
+        font-size: 40px;
+    }
+    &__text{
+        width: 1080px;
+        margin-left: 105px;
+        text-align: justify;
+        background-color: #faf8f8;
+    }
+    &__paragraph{
+        font-size: 30px;
+        padding:50px;
+    }
+    &__imagen{
+        width: 800px;
+        height: 400px;
+        padding-left: 150px;
+        border-radius: 20px;
+    }
+}
+.relation{
+    
+}

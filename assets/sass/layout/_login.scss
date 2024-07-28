@@ -1,4 +1,4 @@
-.forms{
+.login{
     &__welcome{
         text-align: center;
     }
@@ -15,8 +15,26 @@
         align-items: center;
         padding: 10px;
     }
-    &__inicisesion{
+    &__inicisesion, &__check{
         display: flex;
+    }
+    &__check{
+        display: flex;
+        width: 350px;
+        height: 40px;
+        font-size: 10px;
+    }
+    &__check--input{
+        width: 20px;
+        height: 20px;
+        justify-content:center;
+    }
+    &__check--label{
+        margin-top: 10px;
+    }
+    &__check--label2{
+        margin-top: 10px;
+        margin-left: 100px;
     }
     // &__sesion{
     //     margin: 16px;
@@ -27,9 +45,5 @@
         font-weight: bold;
         color: black;
     }
-    // &__link--register{
-    //     margin: 16px 0px 0px 5px;
-    //     font-weight: bold;
-    //     color:white;
-    // }
+
 }
