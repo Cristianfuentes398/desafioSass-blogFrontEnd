@@ -1,5 +1,397 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.lineaHorizontal {
+  border: 3px solid #CCCCCC;
+  Width: 1280px;
+  margin: 65px 0px 0px 0px;
+}
+
+.fecha {
+  font-weight: 400;
+}
+
+.desafioLatam {
+  display: flex;
+  font-weight: 500;
+  text-align: left;
+}
+
+.descripcion {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
 body {
   font-family: "Poppins", sans-serif;
+  font-style: normal;
   color: #171717;
+}
+
+a {
+  color: black;
+}
+
+.header {
+  display: flex;
+  border-bottom: 2px solid #CCCCCC;
+  height: 130px;
+  width: 1280px;
+}
+.header__imagen {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  margin-left: 109px;
+  margin-top: 38px;
+}
+.header__h1 {
+  width: 170px;
+  height: 36px;
+  margin-top: 47px;
+  margin-left: 21px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section {
+  display: flex;
+}
+.section__h2 {
+  width: 164px;
+  margin: 27px 0px 0px 110px;
+}
+.section__imagen {
+  width: 603px;
+  height: 314px;
+  margin: 27px 0px 0px 105px;
+  border-radius: 20px;
+}
+.section__imagen2 {
+  width: 189px;
+  height: 145px;
+  margin: 96px 0px 0px 56px;
+  border-radius: 20px;
+}
+.section__imagen3 {
+  width: 189px;
+  height: 145px;
+  margin: 32px 0px 0px 56px;
+  border-radius: 20px;
+}
+.section__imagen4 {
+  width: 189px;
+  height: 145px;
+  margin: 20px 0px 0px 56px;
+  border-radius: 20px;
+}
+.section__container2 {
+  display: flex;
+}
+.section__fecha {
+  margin: 22px 0px 0px 105px;
+  width: 515px;
+  height: 27px;
+  font-size: 18px;
+}
+.section__contenido {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin: 12px 0px 0px 105px;
+}
+.section__logodesafio {
+  width: 60px;
+  height: 60px;
+  margin: 16px 0px 0px 105px;
+  border-radius: 77px;
+}
+.section__desafio {
+  width: 328px;
+  height: 36px;
+  font-size: 24px;
+  margin: 31px 0px 0px 22px;
+}
+.section__fecha2 {
+  margin: 96px 0px 0px 31px;
+  width: 186px;
+  height: 24px;
+  font-size: 16px;
+}
+.section__fecha3 {
+  margin: 34px 0px 0px 32px;
+  width: 186px;
+  height: 24px;
+  font-size: 16px;
+}
+.section__fecha4 {
+  margin: 22px 0px 0px 31px;
+  width: 186px;
+  height: 24px;
+  font-size: 16px;
+}
+.section__descripcion {
+  width: 187px;
+  height: 72px;
+  margin: 9px 0px 0px 30px;
+}
+.section__logodesafio2 {
+  width: 39.79px;
+  height: 40px;
+  border-radius: 77px;
+  margin: 0px 0px 0px 30px;
+}
+.section__desafio {
+  width: 134.28px;
+  height: 24px;
+  font-size: 16px;
+  margin: 8px 0px 0px 12.93px;
+}
+
+.forms__welcome {
+  text-align: center;
+}
+.forms__register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.forms__button {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.forms__inicisesion {
+  display: flex;
+}
+.forms__link--login {
+  margin: 16px 0px 0px 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.login__welcome {
+  text-align: center;
+}
+.login__register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.login__button {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.login__inicisesion, .login__check {
+  display: flex;
+}
+.login__check {
+  display: flex;
+  width: 350px;
+  height: 40px;
+  font-size: 10px;
+}
+.login__check--input {
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+}
+.login__check--label {
+  margin-top: 10px;
+}
+.login__check--label2 {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.login__link--login {
+  margin: 16px 0px 0px 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.subscription {
+  margin-left: 105px;
+  margin-top: 30px;
+  background-color: rgb(39, 161, 39);
+  width: 1080px;
+  height: 200px;
+  border-radius: 20px;
+}
+.subscription__subtitle {
+  margin: 0px 0px 0px 70px;
+  padding-top: 20px;
+  color: #fff;
+}
+.subscription__subtitle2 {
+  margin: 0px 0px 0px 70px;
+  color: #fff;
+}
+.subscription__input {
+  width: 430px;
+  margin-left: 70px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.subscription__button--sub {
+  background-color: #CCC;
+  width: 200px;
+  height: 60px;
+  margin-left: 200px;
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.post__logodesafio {
+  width: 60px;
+  height: 60px;
+  margin: 16px 0px 0px 105px;
+  border-radius: 77px;
+}
+.post__fecha {
+  margin: 28px 0px 0px 105px;
+  width: 515px;
+  height: 27px;
+  font-size: 20px;
+}
+.post__logo {
+  display: flex;
+}
+.post__desafio {
+  font-size: 25px;
+  margin-left: 5px;
+}
+.post__subtitle {
+  margin-left: 105px;
+  font-size: 40px;
+}
+.post__text {
+  width: 1080px;
+  margin-left: 105px;
+  text-align: justify;
+  background-color: #faf8f8;
+}
+.post__paragraph {
+  font-size: 30px;
+  padding: 50px;
+}
+.post__imagen {
+  width: 800px;
+  height: 400px;
+  padding-left: 150px;
+  border-radius: 20px;
+}
+
+.relation__container {
+  display: flex;
+}
+.relation__h2 {
+  margin-left: 105px;
+  font-size: 25px;
+}
+.relation__imagen {
+  width: 298px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 22px 0px 0px 105px;
+}
+.relation__fecha {
+  width: 294px;
+  height: 24px;
+  font-size: 16px;
+  margin: 6px 0px 0px 111px;
+}
+.relation__descripcion {
+  width: 295px;
+  height: 31px;
+  margin: 9px 0px 0px 110px;
+}
+.relation__logodesafio {
+  margin: 39px 0px 0px 111px;
+  width: 40px;
+  height: 40px;
+  border-radius: 77px;
+}
+.relation__desafio {
+  width: 135px;
+  height: 24px;
+  margin: 47px 0px 0px 13px;
+}
+
+.footer {
+  display: flex;
+  border-bottom: 2px solid #CCCCCC;
+  height: 130px;
+  width: 1280px;
+}
+.footer__imagen {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  margin-left: 109px;
+  margin-top: 38px;
+}
+.footer__h1 {
+  width: 170px;
+  height: 36px;
+  margin-top: 47px;
+  margin-left: 21px;
+  font-weight: 700;
+}
+
+button {
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.forms__image, .login__image {
+  width: 50px;
+  height: 40px;
+}
+.forms__google, .login__google {
+  background-color: #fff;
+  width: 350px;
+  height: 40px;
+  display: flex;
+  border: solid;
+  border-color: #ccc;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+}
+.forms__button--login, .login__button--login {
+  background-color: rgb(39, 161, 39);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.forms__button--google, .login__button--google {
+  font-size: 20px;
+  background-color: #fff;
+  font-weight: 700;
+  border: transparent;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  border-color: #ccc;
+  border-radius: 5px;
 }/*# sourceMappingURL=main.css.map */

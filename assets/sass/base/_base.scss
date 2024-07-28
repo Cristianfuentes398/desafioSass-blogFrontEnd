@@ -1,0 +1,27 @@
+.lineaHorizontal{
+    border: 3px solid #CCCCCC;
+    Width:1280px;
+    margin: 65px 0px 0px 0px;
+}
+.fecha{
+    font-weight: $poppins-regular;
+}
+.desafioLatam{
+    display: flex;
+    font-weight: $poppins-medium;
+    text-align: left;
+}
+.descripcion{
+    font-size: 20px;
+    font-weight: $poppins-bold;
+    line-height: 30px;
+    text-align: left;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color:#171717;
+}
+a{
+    color: black;
+}

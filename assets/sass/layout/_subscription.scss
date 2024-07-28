@@ -1,0 +1,34 @@
+.subscription{
+    margin-left: 105px;
+    margin-top: 30px;
+    background-color:rgb(39 161 39);
+    width: 1080px;
+    height: 200px;
+    border-radius: 20px;
+
+    &__subtitle{
+        margin: 0px 0px 0px 70px;
+        padding-top: 20px;
+        color: #fff;
+    }
+    &__subtitle2{
+        margin: 0px 0px 0px 70px;
+        color: #fff;
+    }
+    &__input{
+        width: 430px;
+        margin-left: 70px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    &__button--sub{
+        background-color: #CCC;
+        width: 200px;
+        height: 60px;
+        margin-left: 200px;
+        color: #000;
+        font-weight: bold;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+}
